@@ -1,0 +1,3 @@
+#!/bin/sh
+
+codeblocks --user-data-dir=/data
