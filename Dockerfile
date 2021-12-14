@@ -24,6 +24,9 @@ RUN apt-get update && \
 		autoconf \
 		cmake \
 		openssh-server \
+		cmake-gui cmake-curses-gui \
+		libssl-dev \
+		doxygen graphviz \
 		&& \
 	apt-get clean && \
 	rm -rf /var/lib/apt/lists/* /var/tmp/* /tmp/*
